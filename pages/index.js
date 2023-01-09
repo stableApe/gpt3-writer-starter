@@ -33,15 +33,15 @@ const onUserChangedText = (event) => {
   return (
     <div className="root">
       <Head>
-        <title>GPT-3 Writer | Toddler Story Generator</title>
+        <title>AI Bedtime Story Generator</title>
       </Head>
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>Create your own bedtime toddler story</h1>
+            <h1>Bedtime Story Generator</h1>
           </div>
           <div className="header-subtitle">
-            <h2>Write the title of your story below! </h2>
+            <h2>Write the title of your story below, and let openAI do the rest. </h2>
           </div>
         </div>
         <div className="prompt-container">
@@ -74,18 +74,7 @@ const onUserChangedText = (event) => {
 )}
         </div>
       </div>
-      <div className="badge-container grow">
-        <a
-          href="https://buildspace.so/builds/ai-writer"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <div className="badge">
-            <Image src={buildspaceLogo} alt="buildspace logo" />
-            <p>build with buildspace</p>
-          </div>
-        </a>
-      </div>
+
     </div>
   );
 };

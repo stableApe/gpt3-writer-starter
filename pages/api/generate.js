@@ -8,7 +8,7 @@ const openai = new OpenAIApi(configuration);
 
 const basePromptPrefix =
 `
-Write me a medium length kids story in British English. It should only use vocabulary that a toddler would understand. It needs to have a beginning, a middle, and an end.
+Write me a medium length kids story in British English. It should only use vocabulary that a toddler would understand. It should have a beginning, a middle, and an end.
 
 Title:
 `
